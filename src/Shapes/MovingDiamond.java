@@ -47,13 +47,11 @@ public class MovingDiamond extends JFrame
 
         public void paint(Graphics g) {
             int x, y, a, b, c, d, e, f, width, height, width1, height1, width2, height2, width3, height3;
-
-
+            
             diamond.draw(g);
             firstShape.draw(g);
             secondShape.draw(g);
             thirdShape.draw(g);
-
 
             x = diamond.getX();
             y = diamond.getY();
