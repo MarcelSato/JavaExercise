@@ -19,6 +19,7 @@ public class MovingDiamond extends JFrame
     private int dChange = 10;
     private int eChange = 10;
     private int fChange = 10;
+    
     public static void main(String[] args) {
         new MovingDiamond();
     }
@@ -33,7 +34,7 @@ public class MovingDiamond extends JFrame
         timer.start();                // ten times a second
         setLayout(new BorderLayout());
         setSize(1000, 1000);
-        setTitle("Moving Shapes");
+        setTitle("Moving Diamond");
         add("Center", myCanvas);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
@@ -47,7 +48,7 @@ public class MovingDiamond extends JFrame
 
         public void paint(Graphics g) {
             int x, y, a, b, c, d, e, f, width, height, width1, height1, width2, height2, width3, height3;
-            
+
             diamond.draw(g);
             firstShape.draw(g);
             secondShape.draw(g);
@@ -83,7 +84,7 @@ public class MovingDiamond extends JFrame
                 width1 = 200;
                 height1 = 200;
                 width2 = 200;
-                height = 200;
+                height2 = 200;
                 width3 = 200;
                 height3 = 200;
                 xChange = (int) (10 * (Math.random() - 0.5));
