@@ -19,7 +19,7 @@ public class MovingDiamond extends JFrame
     private int dChange = 10;
     private int eChange = 10;
     private int fChange = 10;
-    
+
     public static void main(String[] args) {
         new MovingDiamond();
     }
