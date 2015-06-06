@@ -7,7 +7,7 @@ abstract class  MusicMaker
 	
 	public MusicMaker()
 	{
-	    instrument = "Recorder";
+	    instrument = "Guitar";
 	    yearsStudied = 0;
 	}	
 	public MusicMaker(String instr, int yrs)
