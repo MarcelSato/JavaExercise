@@ -14,7 +14,6 @@ public class TestObj
                 return true;
             }
         };      /* Line 11 */
-
         System.out.println(o.equals("Fred"));
     }
 }
