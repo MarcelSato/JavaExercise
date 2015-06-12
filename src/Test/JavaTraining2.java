@@ -27,7 +27,6 @@ public class JavaTraining2 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         String[] APList = AP.split(" ");
         int strControl= APList.length;
         List<Integer> intList = new ArrayList<Integer>();
@@ -57,5 +56,4 @@ public class JavaTraining2 {
             diffControl++;
         }
     }
-
 }

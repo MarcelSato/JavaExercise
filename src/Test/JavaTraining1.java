@@ -28,9 +28,7 @@ public class JavaTraining1 {
                 System.out.println(n);
 
                 if(0 <= a && b <= 50 && 1 <= n && n <= 15){
-
                 }
-
             }
         } catch (IOException io) {
             io.printStackTrace();

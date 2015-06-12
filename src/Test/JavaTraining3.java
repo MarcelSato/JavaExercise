@@ -10,7 +10,6 @@ public class JavaTraining3 {
         int arr[] = {1, 3, 5, 7, 11};
         int difference[] = new int[arr.length - 1];
         int missingTerm;
-
         for (int i = 1; i < arr.length; i++) {
             difference[i - 1] = arr[i] - arr[i - 1];
         }
@@ -19,9 +18,7 @@ public class JavaTraining3 {
             if (difference[j] != difference[j + 1]) {
                 missingTerm = arr[j] + difference[j + 1];
                 System.out.println("The missing term is: " + missingTerm);
-
                 break;
-
             }
         }
         for (int j = 0; j < arr.length -1; j++){
