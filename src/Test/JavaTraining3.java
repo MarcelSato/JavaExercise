@@ -3,6 +3,7 @@ package Test;
 /**
  * Created by Marcel on 11/06/15.
  */
+
 public class JavaTraining3 {
 
     public static void main(String args[]) {

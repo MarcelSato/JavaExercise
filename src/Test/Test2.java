@@ -2,6 +2,7 @@ package Test;
 /**
  * Created by Marcel on 08/06/15.
  */
+
 class Test2
 {
     public static void main(String [] args)

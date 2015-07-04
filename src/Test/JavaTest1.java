@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 /**
  * Created by Marcel on 12/06/15.
  */
+
 public class JavaTest1 {
 
     public static void main(String[] args) {

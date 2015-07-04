@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 /**
  * Created by Marcel on 10/06/15.
  */
+
 public class JavaTraining1 {
 
     public static void main (String args[]) {

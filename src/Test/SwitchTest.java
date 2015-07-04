@@ -3,6 +3,7 @@ package Test;
 /**
  * Created by Marcel on 08/06/15.
  */
+
 public class SwitchTest
 {
     public static void main(String[] args)

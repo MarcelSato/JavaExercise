@@ -9,6 +9,7 @@ import java.util.List;
 /**
  * Created by Marcel on 11/06/15.
  */
+
 public class JavaTraining2 {
 
     public static void main(String[] args) {

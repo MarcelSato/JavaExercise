@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 /**
  * Created by Marcel on 11/06/15.
  */
+
 public class PrimeNumbers {
 
     public static void main(String[] args) {

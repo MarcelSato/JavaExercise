@@ -3,6 +3,7 @@ package Test;
 /**
  * Created by Marcel on 03/06/15.
  */
+
 public class SC2 {
 
         public static void main(String [] args)
